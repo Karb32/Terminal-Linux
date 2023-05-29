@@ -79,23 +79,3 @@
 #### **_20) вывести дату и время_**
 
 > **date**
-
-#### Задание \*
-
-#### **1) Отправить http запрос на сервер. http://162.55.220.72:5005/terminal-hw-request**
-
-> curl http://162.55.220.72:5005/terminal-hw-request
-> curl "http://162.55.220.72:5005/get_method?name=Andrey&age=36"
-
-#### **_2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13_**
-
-> **touch myscript => vim myscript =>
-> (#!/bin/bash
-> cd HW_Terminal
-> mkdir folder_1 folder_2 folder_3
-> cd folder_1
-> touch f_1.txt f_2.txt f_3.txt f_4.json f_5.json
-> mkdir catalog_1 catalog_2 catalog_3
-> ls -la
-> mv f_1.txt f_4.json ../folder_2) =>
-> esc :wq => chmod +x ./myscript => ./myscript**
